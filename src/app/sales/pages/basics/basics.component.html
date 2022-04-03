@@ -9,20 +9,26 @@
 <div class="grid">
     <div class="col">
         <p-card header="uppercase"
-                [subheader]="lowerName">
-        {{ lowerName | uppercase }}
+                [subheader]="lowerName"
+        >
+            <i class="pi pi-arrow-down"></i>
+            <p>{{ lowerName | uppercase }}</p>
         </p-card>
     </div>
     <div class="col">
         <p-card header="lowercase"
-                [subheader]="upperName">
-        {{ upperName | lowercase }}
+                [subheader]="upperName"
+        >
+            <i class="pi pi-arrow-down"></i>
+            <p>{{ upperName | lowercase }}</p>
         </p-card>
     </div>
     <div class="col">
         <p-card header="titlecase"
-                [subheader]="completeName">
-        {{ completeName | titlecase }}
+                [subheader]="completeName"
+        >
+            <i class="pi pi-arrow-down"></i>
+            <p>{{ completeName | titlecase }}</p>
         </p-card>
     </div>
 
