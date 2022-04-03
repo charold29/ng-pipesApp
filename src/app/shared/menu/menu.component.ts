@@ -11,6 +11,15 @@ import { MenuItem } from 'primeng/api';
         /*FILTER: https://codepen.io/sosuke/pen/Pjoqqp*/
         filter: invert(98%) sepia(4%) saturate(1407%) hue-rotate(162deg) brightness(116%) contrast(100%);
       }
+      
+      .rotate{
+        transition: transform .1s ease-in-out;
+      }
+
+      .rotate:hover {
+          transform: rotate(20deg);
+      }
+
     `
   ]
 })
