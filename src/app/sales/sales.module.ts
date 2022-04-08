@@ -8,7 +8,7 @@ import { NotCommonComponent } from './pages/not-common/not-common.component';
 import { BasicsComponent } from './pages/basics/basics.component';
 import { SortComponent } from './pages/sort/sort.component';
 
-import { MayusPipe } from './pipes/mayus.pipe';
+import { CapitalizePipe } from './pipes/capitalize.pipe';
 import { NinjutsuPipe } from './pipes/ninjutsu.pipe';
 import { SortPipe } from './pipes/sort.pipe';
 
@@ -20,7 +20,7 @@ import { SortPipe } from './pipes/sort.pipe';
     BasicsComponent,
     SortComponent,
     //Pipes
-    MayusPipe,
+    CapitalizePipe,
     NinjutsuPipe,
     SortPipe,
   ],

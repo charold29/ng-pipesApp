@@ -5,12 +5,12 @@
         
         <div class="text-center">
             <button pButton pRipple
-                    label="Toggle MAYUS"
+                    label="Toggle CAPS"
                     (click)="change()"
                     class="mb-1 p-button-warning"></button>
         </div>
         <div class="text-center">
-            <p>Pipes creados por {{"text" | mayus:toUpperCase}}</p>
+            <p>Pipes creados por <strong>{{"harold rojas" | capitalize:toCapitalize}}</strong> </p>
         </div>
         
     </div>
@@ -70,8 +70,8 @@
             <ng-template pTemplate="header">
                 <tr>
                     <th pSortableColumn="name">Nombre <p-sortIcon field="name"></p-sortIcon></th>
-                    <th>Ninjutsu</th>
-                    <th>Aldea</th>
+                    <th pSortableColumn="ninjutsu">Ninjutsu <p-sortIcon field="ninjutsu"></p-sortIcon></th>
+                    <th pSortableColumn="village">Aldea <p-sortIcon field="village"></p-sortIcon></th>
                 </tr>
             </ng-template>
             <ng-template pTemplate="body" let-ninja>

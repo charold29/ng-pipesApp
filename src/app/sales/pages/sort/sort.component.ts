@@ -9,7 +9,7 @@ import { Village, Ninja } from '../../interface/ninja.interface';
 })
 export class SortComponent {
   
-  toUpperCase: boolean = true;
+  toCapitalize: boolean = true;
   orderBy: string = ''
   
   ninjas: Ninja[] = [
@@ -29,6 +29,11 @@ export class SortComponent {
       village: Village.rayo
     },
     {
+      name: 'Neji',
+      ninjutsu: false,
+      village: Village.hoja
+    },
+    {
       name: 'Rock Lee',
       ninjutsu: false,
       village: Village.hoja
@@ -41,7 +46,7 @@ export class SortComponent {
   ]
 
   change(){
-    this.toUpperCase = !this.toUpperCase;
+    this.toCapitalize = !this.toCapitalize;
   }
 
   changeOrderBy( value:string ){
