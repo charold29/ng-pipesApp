@@ -9,14 +9,20 @@ import { BasicsComponent } from './pages/basics/basics.component';
 import { SortComponent } from './pages/sort/sort.component';
 
 import { MayusPipe } from './pipes/mayus.pipe';
+import { NinjutsuPipe } from './pipes/ninjutsu.pipe';
+import { SortPipe } from './pipes/sort.pipe';
 
 @NgModule({
   declarations: [
+    //Components
     NumbersComponent,
     NotCommonComponent,
     BasicsComponent,
     SortComponent,
-    MayusPipe
+    //Pipes
+    MayusPipe,
+    NinjutsuPipe,
+    SortPipe,
   ],
   exports: [
     NumbersComponent,

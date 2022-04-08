@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 
 //PrimeNg
-import {ButtonModule} from 'primeng/button'
-import {CardModule} from 'primeng/card';
-import {MenubarModule} from 'primeng/menubar';
-import {FieldsetModule} from 'primeng/fieldset';
+import { ButtonModule } from 'primeng/button'
+import { CardModule } from 'primeng/card';
+import { MenubarModule } from 'primeng/menubar';
+import { FieldsetModule } from 'primeng/fieldset';
 import { RippleModule } from 'primeng/ripple';
-import {ToolbarModule} from 'primeng/toolbar';
+import { TableModule } from 'primeng/table';
+import { ToolbarModule } from 'primeng/toolbar';
 
 @NgModule({
   exports: [
@@ -15,6 +16,7 @@ import {ToolbarModule} from 'primeng/toolbar';
     FieldsetModule,
     MenubarModule,
     RippleModule,
+    TableModule,
     ToolbarModule,
   ]
 })
